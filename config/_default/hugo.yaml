@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: SOLID Lab # Website name
-baseURL: 'https://yankaigroup.github.io/' #'https://yankaigroup.github.io/' # Website URL。'https://solid.chbe.ubc.ca/' #
+baseURL: 'https://solid.chbe.ubc.ca/' #'https://yankaigroup.github.io/' # Website URL。'https://solid.chbe.ubc.ca/' #
 #canonifyURLs: true  # new added
 
 
