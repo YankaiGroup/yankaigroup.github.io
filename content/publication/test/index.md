@@ -1,22 +1,68 @@
 ---
-title: "A Chance-Constrained Nonlinear Programming Approach for Equipment Design Under Uncertainty"
-tags: ['Nonlinear Programming','Large-scale']
+title: "An example preprint / working paper"
 authors:
-   -
-author_notes:
-   -
-date: '2018-01-01T00:00:00Z'
-
+- admin
+date: "2019-04-07T00:00:00Z"
 doi: ""
+
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: "2017-01-01T00:00:00Z"
 
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article"]
 
-publication_types: ['article-journal']
-publication: "*Computer Aided Chemical Engineering 46, 997-1002*"
-abstract: "In this work there are shown different strategies to cope uncertainty in large-scale chance-constrained nonlinear programs. We present the design of a flare system as a case study. The design of this system is influenced by several uncertain factors, such as the volume and composition of the waste flow stream to be combusted and the ambient conditions. These systems are currently designed based on typical historical values for waste fuel gases and ambient conditions. Consequently, an improperly designed flare can be susceptible to extreme events previously not experienced. Particularly, we use moment matching (MM) when the algebraic form of the moments and the quantile function of the chance constrained (CC) distribution is known, and for more general settings when the distribution cannot be predicted we use the scenario approach (AS), the popular conditional value at risk (CVaR) and the recently proposed sigmoid value at risk (SigVaR). We demonstrate that the SigVaR approximation offers the best results and this approach overcome the conservative results of the AS and CVaR."
-url_pdf: "https://scholar.google.ca/citations?view_op=view_citation&hl=zh-CN&user=M-s3mjAAAAAJ&cstart=80&citation_for_view=M-s3mjAAAAAJ:UebtZRa9Y70C"
+# Publication name and optional abbreviated publication name.
+publication: ""
+publication_short: ""
+
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+# Summary. An optional shortened abstract.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+tags:
+- Source Themes
 featured: false
-projects: []
-slides: ""
+
+links:
+- name: Custom Link
+  url: http://example.org
+url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_dataset: '#'
+url_poster: '#'
+url_project: ''
+url_slides: ''
+url_source: '#'
+url_video: '#'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects:
+- internal-project
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: example
 ---
+
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
