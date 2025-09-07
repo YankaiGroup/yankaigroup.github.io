@@ -3,7 +3,7 @@ title: "A Chance-Constrained Nonlinear Programming Approach for Equipment Design
 tags: ['Nonlinear Programming','Large-scale']
 authors: ['Javier Tovar-Facio', 'Yankai Cao', 'José M Ponce-Ortega', 'Victor M Zavala']
 author_notes:
-date: "2019-01-01T00:00:00Z"
+date: '2019-01-01T00:00:00Z'
 publication_types: ['article-journal']
 publishDate: '2019-01-01T00:00:00Z'
 publication: "*Computer Aided Chemical Engineering 46, 997-1002*"
