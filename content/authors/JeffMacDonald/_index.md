@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: M.Sc. student, started 2023
+role: M.Sc. student, started 2023 (Co-advised with Shahabaddine Sokhansanj)
 
 # Organizations/Affiliations
 organizations:
