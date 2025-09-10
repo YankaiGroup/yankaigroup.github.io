@@ -1,5 +1,5 @@
 ---
-title: News & Events
+title: News
 date: 2022-10-24
 
 type: landing
@@ -8,7 +8,7 @@ sections:
   - block: collection
     id: news
     content:
-      title:  News & Events   
+      title:  News 
       text: ""
       count: 50
       filters:
