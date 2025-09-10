@@ -17,7 +17,7 @@ organizations:
   - name: The University of Britis Columbia
     url: ''
     
-office: CHBE 237, UBC
+
 
 # Short bio (displayed in user profile at end of posts)
 bio:  
@@ -55,7 +55,7 @@ social:
     link: https://scholar.google.com/citations?user=M-s3mjAAAAAJ&hl=en
   - icon: building
     icon_pack: fas
-    link: 'Office: CHBE 237, UBC'
+    link: 'https://www.google.com/maps/search/UBC+Chemical+and+Biological+Engineering+Building+(CHBE)/@48.3008303,-120.9322642,6z?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D)'
     
 
 # Link to a PDF of your resume/CV from the About widget.
