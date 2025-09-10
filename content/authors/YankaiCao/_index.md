@@ -16,12 +16,13 @@ role: Associate Professor
 organizations:
   - name: The University of Britis Columbia
     url: ''
+    
+office: CHBE 237, UBC
 
 # Short bio (displayed in user profile at end of posts)
 bio:  
 
-email: yankai.cao@ubc.ca
-Office: CHBE 237, UBC
+
 
 interests:
 #  - Machine Learning, Large-scale Optimization, Energy Systems, Process Control
