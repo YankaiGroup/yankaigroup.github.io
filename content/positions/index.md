@@ -10,7 +10,6 @@ sections:
     content: 
       title: Positions
       text: |
-        <!-- 白色背景是默认的，无需加 -->
 
           <p class="text-2xl font-bold"><strong>We are  seeking future postdoctoral researchers, graduate students, visiting students, and undergraduate students.</strong></p>
 
@@ -21,7 +20,8 @@ sections:
           <div class="horizontal-line"></div>
           <div style="display: flex; align-items: center; gap: 2rem;">
           <div style="max-width: 700px;"> 
-          <p class="text-3xl font-bold" style="font-family:Times New Roman, serif;">
+          #<p class="text-3xl font-bold" style="font-family:Times New Roman, serif;">
+          <p class="text-2xl font-light" style="text-indent: 2em;"> 
             <strong>To Ph.D./ Master Candidates:</strong>
           </p>
 
