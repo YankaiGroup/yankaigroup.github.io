@@ -20,13 +20,11 @@ sections:
           <div class="horizontal-line"></div>
           <div style="display: flex; align-items: center; gap: 2rem;">
           <div style="max-width: 700px;"> 
-          #<p class="text-3xl font-bold" style="font-family:Times New Roman, serif;">
-          <p class="text-2xl font-light" style="text-indent: 2em;"> 
+          <p class="text-2xl font-light"> 
             <strong>To Ph.D./ Master Candidates:</strong>
           </p>
 
-          #<p class="text-2xl font-light italic" style="font-family:Times New Roman, serif;">
-          <p class="text-2xl font-light" style="text-indent: 2em;"> 
+          <p class="text-2xl font-light"> 
             Ideal candidates will have a strong background in process modeling, control, optimization, and excellent communication skills. Students with a major in Control Engineering, Chemical Engineering, Automation Engineering, Systems Engineering, Industrial Engineering, Computer Science or Applied Mathematics are preferred.
           </p>
           </div>
