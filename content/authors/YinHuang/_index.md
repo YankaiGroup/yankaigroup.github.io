@@ -25,7 +25,7 @@ organizations:
 bio: 
 
 interests:
-  - 
+  - Stochastic Optimization
  
  
 
