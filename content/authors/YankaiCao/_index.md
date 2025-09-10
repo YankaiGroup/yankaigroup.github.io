@@ -20,6 +20,9 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio:  
 
+email: yankai.cao@ubc.ca
+Office: CHBE 237, UBC
+
 interests:
 #  - Machine Learning, Large-scale Optimization, Energy Systems, Process Control
   - Large-scale Optimization
@@ -61,8 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'yankai.cao@ubc.ca'
-Office: 'CHBE 237, UBC'
+email: 'yankai.cao@ubc.ca' 
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
