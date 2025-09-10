@@ -25,7 +25,7 @@ organizations:
 bio:  
 
 interests:
-  -  
+  -  Software for Optimal Clustering
  
  
 
