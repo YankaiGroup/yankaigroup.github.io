@@ -243,9 +243,9 @@ sections:
              Tel: 1 604 822 1346<br>
             Email: <a href="mailto:yankai.cao@ubc.ca">yankai.cao@ubc.ca</a><br>
             Office: CHBE 237<br>
-            Address: 237-2360 East Mall<br>
-            Vancouver, British Columbia, Canada<br>
-            V6T 1Z3</p>
+            237-2360 East Mall<br>
+            Vancouver, BC, Canada, V6T 1Z3<br>
+            </p>
           </div>
   
         </div>
