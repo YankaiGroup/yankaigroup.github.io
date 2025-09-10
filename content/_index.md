@@ -224,7 +224,7 @@ sections:
   
   
           <!-- Right: Affiliations -->
-          <div style="flex: 1; min-width: 250px;">
+          <div style="flex: 1; min-width: 220px;">
             <h3 style="color: #0055A5;">Affiliations</h3>
             <ul style="list-style: none; padding-left: 0;">
               <li><a href="https://www.ubc.ca/">The University of Britis Columbia</a></li>
