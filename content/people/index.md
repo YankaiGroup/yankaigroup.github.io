@@ -238,9 +238,6 @@ sections:
               <td style="border: 1px solid #ccc; padding: 6px;">Software Engineer at Amazon</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Modelling of Epidemics Trend of COVID-19 in British Columbia with Public Health Controls</td>
             </tr>
-            <tr style="background-color: #e5e5e5;">
-              <td colspan="5" style="border: 1px solid #ccc; padding: 6px;"><strong>2019-2020</strong></td>
-            </tr>
             <tr>
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Ying Xiong</td>
