@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Ph.D. student, started 2021
+role: Ph.D. student, started 2021 (Co-advised with Shahabaddine Sokhansanj)
 
 # Organizations/Affiliations
 organizations:
