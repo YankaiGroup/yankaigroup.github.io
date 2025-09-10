@@ -8,7 +8,7 @@ abstract: "The training of optimal decision tree via mixed-integer programming (
 date: "2022-12-06"
 publishDate: "2022-12-06"
 url_pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/37771cc0be272368102a37f202bb88d8-Paper-Conference.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
