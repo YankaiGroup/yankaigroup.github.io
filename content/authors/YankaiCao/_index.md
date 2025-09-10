@@ -51,7 +51,7 @@ social:
     link: https://scholar.google.com/citations?user=M-s3mjAAAAAJ&hl=en
   - icon: building
     icon_pack: fas
-    link: 'Office: CHBE 237, UBC'
+    text: 'Office: CHBE 237, UBC'
     
 
 # Link to a PDF of your resume/CV from the About widget.
