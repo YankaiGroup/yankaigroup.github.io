@@ -51,7 +51,7 @@ social:
     link: https://scholar.google.com/citations?user=M-s3mjAAAAAJ&hl=en
   - icon: building
     icon_pack: fas
-    text: 'Office: CHBE 237, UBC'
+    link: 'Office: CHBE 237, UBC'
     
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -62,6 +62,7 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'yankai.cao@ubc.ca'
+Office: 'CHBE 237, UBC'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
