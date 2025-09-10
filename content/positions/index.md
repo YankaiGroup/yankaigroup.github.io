@@ -32,7 +32,7 @@ sections:
           #<div>
 
           <p class="text-2xl font-light"> 
-          <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="btn btn-outline">→ Apply through UBC Graduate School</a>
+          <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="btn btn-outline">→ Apply Now</a>
           </div>
           </div>
     
