@@ -21,7 +21,7 @@ organizations:
 bio:  
 
 interests:
-  - Machine Learning, Large-scale Optimization, Energy Systems, Process Control
+#  - Machine Learning, Large-scale Optimization, Energy Systems, Process Control
   - Large-scale Optimization
   - Energy Systems
   - Process Control
