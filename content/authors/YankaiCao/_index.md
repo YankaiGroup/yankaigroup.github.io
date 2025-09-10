@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yankai.cao@ubc.ca'
+    link: 'mailto:yankai.cao@ubc.ca'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=M-s3mjAAAAAJ&hl=en
