@@ -218,7 +218,7 @@ sections:
           <div style="flex: 1; min-width: 250px;">
             <h3 style="color: #0055A5;"><strong>UBC SOLID Lab</strong></h3>
             <p>
-              We focus on Scalable Optimization, Learning, and Intelligent Decision-making (SOLID). SOLID Lab is embedded in the Department of Chemical and Biological Engineering at The University of Britis Columbia.
+              We focus on Scalable Optimization, Learning, and Intelligent Decision-making (SOLID). SOLID Lab is based in the Department of Chemical and Biological Engineering at The University of British Columbia.
             </p>
           </div>
   
