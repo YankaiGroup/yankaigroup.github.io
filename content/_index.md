@@ -215,7 +215,7 @@ sections:
         <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2rem;">
   
           <!-- Left: Lab Info -->
-          <div style="flex: 1; min-width: 250px;">
+          <div style="flex: 1; min-width: 280px;">
             <h3 style="color: #0055A5;"><strong>UBC SOLID Lab</strong></h3>
             <p>
               We focus on Scalable Optimization, Learning, and Intelligent Decision-making (SOLID). SOLID Lab is based in the Department of Chemical and Biological Engineering at The University of British Columbia.
@@ -224,7 +224,7 @@ sections:
   
   
           <!-- Right: Affiliations -->
-          <div style="flex: 1; min-width: 200px;">
+          <div style="flex: 1; min-width: 280px;">
             <h3 style="color: #0055A5;">Affiliations</h3>
             <ul style="list-style: none; padding-left: 0;">
               <li><a href="https://www.ubc.ca/">The University of Britis Columbia</a></li>
@@ -243,8 +243,8 @@ sections:
              Tel: 1 604 822 1346<br>
             Email: <a href="mailto:yankai.cao@ubc.ca">yankai.cao@ubc.ca</a><br>
             Office: CHBE 237<br>
-            237-2360 East Mall<br>
-            Vancouver, BC, Canada, V6T 1Z3<br>
+            2360 East Mall<br>
+            Vancouver, BC, Canada<br>
             </p>
           </div>
   
