@@ -37,7 +37,7 @@ sections:
          <h2>We focus on <strong class="text-2xl font-bold">S</strong>calable <strong class="text-2xl font-bold">O</strong>ptimization, <strong class="text-2xl font-bold">L</strong>earning, and <strong class="text-2xl font-bold">I</strong>ntelligent <strong class="text-2xl font-bold">D</strong>ecision-making (SOLID).</h2>
          <br>
          <p class="text-xs font-light" style="font-size: 18px;"><strong>SOLID Lab</strong> is embedded in the
-         <a href="https://chbe.ubc.ca" class="custom-link" target="_blank"><em>  Department of Chemical and Biological Engineering </em> </a> at <a href="https://www.ubc.ca/" class="custom-link" target="_blank"> <em>  The University of British Columbia </em> </a>.<br></p>
+         <a href="https://chbe.ubc.ca" class="custom-link" target="_blank"> Department of Chemical and Biological Engineering </a> at <a href="https://www.ubc.ca/" class="custom-link" target="_blank"> The University of British Columbia </a>.<br></p>
          <br>
          <a href="/#research" class="btn btn-dark">Learn Us</a>
          <a href="people/" class="btn btn-light">Meet Us</a>
@@ -47,32 +47,32 @@ sections:
         <h4 style="color: #374151; font-weight: bold;"> Latest Highlight </h4>
          <!-- News Card 1 --> 
           <div class="events-card">
-            <p class="text-xs" style="font-size: 17px;">   Jiayang received the Wall Research Award. 
+            <p class="text-xs" style="font-size: 17px;"> Jiayang received the Wall Research Award. 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| June 2025 </span> 
             </p>
           </div>
           <!-- News Card 1 --> 
           <div class="events-card">
-            <p class="text-xs" style="font-size: 17px;"> <em>  Prof. Yankai Cao gave a talk at the MIT PSE Seminar. </em>
+            <p class="text-xs" style="font-size: 17px;"> Prof. Yankai Cao gave a talk at the MIT PSE Seminar. 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| May 2025 </span> 
             </p>
           </div>  
           <!-- News Card 1 --> 
           <div class="events-card">
-            <p class="text-xs" style="font-size: 17px;"> <em>  Congratulations to Jingyi on her PhD graduation! </em>
+            <p class="text-xs" style="font-size: 17px;"> Congratulations to Jingyi on her PhD graduation! 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| April 2025 </span> 
             </p>
           </div>  
          <!-- News Card 1 --> 
           <div class="events-card">
-            <p class="text-xs" style="font-size: 17px;"> <em>  Jason Zhao received the Four Year Doctoral Fellowship. </em>
+            <p class="text-xs" style="font-size: 17px;"> Jason Zhao received the Four Year Doctoral Fellowship. 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| March 2025 </span> 
             </p>
           </div>   
           <!-- News Card 3 -->
           <a href="https://www.nature.com/articles/s41467-022-29837-w" target="_blank" style="text-decoration: none; color: inherit;">
           <div class="events-card" style="font-size: 17px;">
-            <p class="text-xs"> <em> Yixiu Wang has published a paper in Nature communication as a co-first author. The paper has been cited for more than 500 times.</em>
+            <p class="text-xs"> Yixiu Wang has published a paper in Nature communication as a co-first author. The paper has been cited for more than 500 times.
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| April 2022 </span> 
             </p>
           </div>
