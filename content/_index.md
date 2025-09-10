@@ -216,7 +216,7 @@ sections:
   
           <!-- Left: Lab Info -->
           <div style="flex: 1; min-width: 250px;">
-            <h3 style="color: #0055A5;"><strong>UBC SOLID Lab</strong></h3>
+            <h3 style="color: #0055A5;"><strong>SOLID Lab</strong></h3>
             <p>
               We focus on Scalable Optimization, Learning, and Intelligent Decision-making (SOLID). SOLID Lab is based in the Department of Chemical and Biological Engineering at The University of British Columbia.
             </p>
@@ -236,7 +236,7 @@ sections:
           </div>
 
           <!-- Middle: Contact Us-->
-          <div style="flex: 1; min-width: 280px;">
+          <div style="flex: 1; min-width: 250px;">
             <h3 style="color: #0055A5;">Contact US</h3>
             <p>Yankai Cao<br>
              Associate Professor<br> 
