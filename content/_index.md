@@ -121,7 +121,7 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Selected Publications  <a href="publication/" class="btn btn-outline">→ See More Publications </a>
+      title: Selected Publications  <a href="publication/" class="btn btn-outline">→ See Full Publications </a>
       text: ""
       count: 30
       filters:
