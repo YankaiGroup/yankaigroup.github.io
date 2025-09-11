@@ -77,9 +77,9 @@ sections:
             </p>
           </div>
           </a>
-          <a href="event/" class="btn btn-outline"> →  More lab news </a> </p> 
+          <a href="event/" class="btn btn-outline" style="font-size: 17px;"> →  More lab news </a> </p> 
            <h4 style="color: #374151; font-weight: bold;"> Recruiting </h4>
-           <p style="color: #374151; font-weight: normal; font-size: 17px;"> We are  seeking future postdoctoral researchers, graduate students, visiting students, and undergraduate students. <a href="positions/" class="btn btn-outline">→ Join Us</a> </p> 
+           <p style="color: #374151; font-weight: normal; font-size: 17px;"> We are  seeking future postdoctoral researchers, graduate students, visiting students, and undergraduate students. <a href="positions/" class="btn btn-outline" style="font-size: 17px;">→ Join Us</a> </p> 
         </div>
         </div>
         <br>
