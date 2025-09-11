@@ -39,9 +39,8 @@ sections:
          <p class="text-xs font-light" style="font-size: 17px;"><strong>SOLID Lab</strong> is based in the
          <a href="https://chbe.ubc.ca" class="custom-link" target="_blank"> Department of Chemical and Biological Engineering </a> at <a href="https://www.ubc.ca/" class="custom-link" target="_blank"> The University of British Columbia </a>.<br></p>
          <br>
-         <p class="text-xs font-light" style="font-size: 17px;">
-         <a href="/#research" class="btn btn-dark">Explore Our Research</a>
-         <a href="people/" class="btn btn-light">Meet Our People</a>
+         <a href="/#research" class="btn btn-dark" style="font-size: 17px;">Explore Our Research</a>
+         <a href="people/" class="btn btn-light" style="font-size: 17px;">Meet Our People</a>
         </div>
         <div class="vertical-line" style="height: 375px;"></div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
@@ -99,7 +98,7 @@ sections:
     content:
       title:  Research
       text: |
-         <p class="text-xl font-light mt-2">SOLID Lab focuses on the design and implementation of large-scale local and global optimization algorithms to solve problems that arise in diverse decision-making paradigms such as <em>machine learning</em>, <em>data analysis </em> as well as <em>stochastic optimization</em>,and <em>optimal control</em>. Our algorithms combine mathematical techniques and emerging high-performance computing hardware (e.g., multi-core CPUs, GPUs, and computing clusters) to achieve computational scalability. The goal is to make these developments accessible to academic and industrial users by implementing algorithms on easy-to-use and extensible software libraries.</p>
+         <p class="text-xl font-light mt-2">SOLID Lab focuses on the design and implementation of large-scale local and global optimization algorithms to solve problems that arise in diverse decision-making paradigms such as <em>machine learning</em>, <em>data analysis</em>, <em>stochastic optimization</em>,and <em>optimal control</em>. Our algorithms combine mathematical techniques and emerging high-performance computing hardware (e.g., multi-core CPUs, GPUs, and computing clusters) to achieve computational scalability. The goal is to make these developments accessible to academic and industrial users by implementing algorithms on easy-to-use and extensible software libraries.</p>
          <p class="text-xl font-light mt-2"> Furthermore, We have applied the algorithms and tools to help collaborators address engineering and scientific questions that arise in diverse application 
             domainsincluding conflict resolution in energy system design, robust control of crystallization systems, predictive control of wind turbines, power management in 
             large networks, estimation of microbial growth models, and image classification for contaminant detection.</p>
