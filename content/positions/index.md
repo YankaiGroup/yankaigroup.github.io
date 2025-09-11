@@ -1,7 +1,7 @@
 ---
 title: Opportunities
 date: 2022-10-24
-###<div class="vertical-line" style="height: 200px;"></div>    class="btn btn-outline"
+###<div class="vertical-line" style="height: 200px;"></div>   
 type: landing
 
 sections:
@@ -33,7 +33,7 @@ sections:
           <div>
           <div>
         
-          <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="text-2xl font-light">→ Apply Now</a>
+          <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="btn btn-outline" class="text-2xl font-light">→ Apply Now</a>
           </div>
           </div>
     
