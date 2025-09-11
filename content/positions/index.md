@@ -1,7 +1,7 @@
 ---
 title: Opportunities
 date: 2022-10-24
-
+###<div class="vertical-line" style="height: 200px;"></div>
 type: landing
 
 sections:
@@ -28,7 +28,7 @@ sections:
             Ideal candidates will have a strong background in process modeling, control, optimization, and excellent communication skills. Students with a major in Control Engineering, Chemical Engineering, Automation Engineering, Systems Engineering, Industrial Engineering, Computer Science or Applied Mathematics are preferred.
           </p>
           </div>
-          ###<div class="vertical-line" style="height: 200px;"></div>
+          
           <div>
 
           <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="btn btn-outline" class="text-2xl font-light">→ Apply Now</a>
