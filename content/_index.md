@@ -39,6 +39,7 @@ sections:
          <p class="text-xs font-light" style="font-size: 17px;"><strong>SOLID Lab</strong> is based in the
          <a href="https://chbe.ubc.ca" class="custom-link" target="_blank"> Department of Chemical and Biological Engineering </a> at <a href="https://www.ubc.ca/" class="custom-link" target="_blank"> The University of British Columbia </a>.<br></p>
          <br>
+         <p class="text-xs font-light" style="font-size: 17px;">
          <a href="/#research" class="btn btn-dark">Explore Our Research</a>
          <a href="people/" class="btn btn-light">Meet Our People</a>
         </div>
