@@ -19,7 +19,7 @@ sections:
 
           <div class="horizontal-line"></div>
           <div style="display: flex; align-items: center; gap: 2rem;">
-          <div style="max-width: 500px;"> 
+          <div style="max-width: 600px;"> 
           <p class="text-2xl font-light"> 
             <strong>To Ph.D./ Master Candidates:</strong>
           </p>
@@ -28,9 +28,9 @@ sections:
             Ideal candidates will have a strong background in process modeling, control, optimization, and excellent communication skills. Students with a major in Control Engineering, Chemical Engineering, Automation Engineering, Systems Engineering, Industrial Engineering, Computer Science or Applied Mathematics are preferred.
           </p>
           </div>
-          
           <div>
-
+          <div>
+    
           <a href="https://www.grad.ubc.ca/prospective-students/application-admission" class="btn btn-outline" class="text-2xl font-light">→ Apply Now</a>
           </div>
           </div>
