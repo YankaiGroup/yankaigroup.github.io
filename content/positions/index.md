@@ -19,7 +19,7 @@ sections:
 
           <div class="horizontal-line"></div>
           <div style="display: flex; align-items: center; gap: 2rem;">
-          <div style="max-width: 700px;"> 
+          <div style="max-width: 500px;"> 
           <p class="text-2xl font-light"> 
             <strong>To Ph.D./ Master Candidates:</strong>
           </p>
