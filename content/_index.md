@@ -36,7 +36,7 @@ sections:
         <div class="text-center" style="max-width: 600px;">
          <h2>We focus on <strong class="text-2xl font-bold">S</strong>calable <strong class="text-2xl font-bold">O</strong>ptimization, <strong class="text-2xl font-bold">L</strong>earning, and <strong class="text-2xl font-bold">I</strong>ntelligent <strong class="text-2xl font-bold">D</strong>ecision-making (SOLID).</h2>
          <br>
-         <p class="text-xs font-light" style="font-size: 18px;"><strong>SOLID Lab</strong> is embedded in the
+         <p class="text-xs font-light" style="font-size: 17px;"><strong>SOLID Lab</strong> is based in the
          <a href="https://chbe.ubc.ca" class="custom-link" target="_blank"> Department of Chemical and Biological Engineering </a> at <a href="https://www.ubc.ca/" class="custom-link" target="_blank"> The University of British Columbia </a>.<br></p>
          <br>
          <a href="/#research" class="btn btn-dark">Explore Our Research</a>
