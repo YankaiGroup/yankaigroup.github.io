@@ -65,21 +65,3 @@ hr.section-divider {
 }
 
 
-/* 只在最外层 reset 一次 */
-#container-publications {
-  counter-reset: pub;
-}
-
-/* 在每条 .isotope-item 上递增 */
-#container-publications .isotope-item {
-  counter-increment: pub;
-}
-
-/* 在 citation 内容前插入编号 */
-#container-publications .isotope-item .pub-list-item.view-citation::before {
-  content: "[" counter(pub) "] ";
-  font-weight: 600;
-  margin-right: .5rem;
-  display: inline-block;
-}
-
