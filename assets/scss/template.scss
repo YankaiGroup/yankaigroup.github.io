@@ -107,36 +107,28 @@ hr.section-divider {
 
 
 
-/* 2025 年：第一个可见的 2025 条目 */
-#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(~ .isotope-item.year-2025:not(.isotope-hidden))) {
-  /* 这句是之前最后一条用的，改成下面“第一个”的写法 */
-}
-
-/* ✅ 这是正确的写法：选第一个可见的 2025 项（即它前面没有别的 2025 可见项） */
-#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(+ .isotope-item.year-2025:not(.isotope-hidden)))::before {
-  content: "2025";
+/* 通用样式：年份标签外观 */
+#container-publications .isotope-item::before {
   display: block;
-  border-bottom: 1px solid #e0e0e0;
-  margin: 1.5rem 0 .5rem;
-  padding-bottom: .6rem;
+  margin: 1.2rem 0 .4rem;
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: #333;
 }
 
-/* 2024 */
-#container-publications .isotope-item.year-2024:not(.isotope-hidden):not(:has(+ .isotope-item.year-2024:not(.isotope-hidden)))::before {
+/* 第一个可见的 2025 项目前插入“2025” */
+#container-publications .isotope-item.year-2025:not(.isotope-hidden):first-of-type::before {
+  content: "2025";
+}
+
+/* 第一个可见的 2024 项目前插入“2024” */
+#container-publications .isotope-item.year-2024:not(.isotope-hidden):first-of-type::before {
   content: "2024";
-  display:block; border-bottom:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-bottom:.6rem;
-  font-weight:700; font-size:1.05rem; color:#333;
 }
 
-/* 2023 */
-#container-publications .isotope-item.year-2023:not(.isotope-hidden):not(:has(+ .isotope-item.year-2023:not(.isotope-hidden)))::before {
+/* 第一个可见的 2023 项目前插入“2023” */
+#container-publications .isotope-item.year-2023:not(.isotope-hidden):first-of-type::before {
   content: "2023";
-  display:block; border-bottom:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-bottom:.6rem;
-  font-weight:700; font-size:1.05rem; color:#333;
 }
 
-/* ……按需继续加 */
 
