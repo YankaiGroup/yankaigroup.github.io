@@ -64,21 +64,37 @@ hr.section-divider {
   margin-bottom: 2.5em;   /* 每个年份分组底部多留空间 */
 }
 
-/* 只在最外层 reset 一次 */
+/* 让容器能放一行顶部统计文字 */
 #container-publications {
-  counter-reset: pub;
+  position: relative;
+  padding-top: 2.2rem;           /* 给顶部统计预留空间 */
+  counter-reset: pub results;     /* 两个计数器：pub=序号，results=总数 */
 }
 
-/* 在每条 .isotope-item 上递增 */
-#container-publications .isotope-item {
-  counter-increment: pub;
+/* 只对“可见”的条目计数：Isotope 隐藏项会带 .isotope-hidden */
+#container-publications .isotope-item:not(.isotope-hidden) {
+  counter-increment: pub results;
 }
 
-/* 在 citation 内容前插入编号 */
-#container-publications .isotope-item .pub-list-item.view-citation::before {
+/* 每条可见条目前加正序编号 [1], [2], ... */
+#container-publications .isotope-item:not(.isotope-hidden) .pub-list-item.view-citation::before {
   content: "[" counter(pub) "] ";
   font-weight: 600;
   margin-right: .5rem;
   display: inline-block;
 }
+
+/* 顶部统计：用 ::after（在内容之后生成，能拿到最终计数），再绝对定位到容器顶部 */
+#container-publications::after {
+  content: "共找到 " counter(results) " 篇结果";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+
+#container-publications .isotope-item { outline: 1px solid red !important; }
+
 
