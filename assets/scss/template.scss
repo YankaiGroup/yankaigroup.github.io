@@ -103,26 +103,6 @@ hr.section-divider {
 
  
 
-/* 2025 */
-#container-publications .isotope-item.year-2025
-:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-:not(:has(~ .isotope-item.year-2025
-           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-))::after { content: "2025"; }
-
-/* 2024 */
-#container-publications .isotope-item.year-2024
-:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-:not(:has(~ .isotope-item.year-2024
-           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-))::after { content: "2024"; }
-
-/* 2023 */
-#container-publications .isotope-item.year-2023
-:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-:not(:has(~ .isotope-item.year-2023
-           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-))::after { content: "2023"; }
 
 
 
