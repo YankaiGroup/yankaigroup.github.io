@@ -1,4 +1,6 @@
 // 倒序编号（根据屏幕上最终位置，而非 DOM 顺序）
+console.log("✅ custom.js 已经加载");
+
 (function () {
   const SEL_CONTAINER = '#container-publications';
   const SEL_ITEM = '.isotope-item';
