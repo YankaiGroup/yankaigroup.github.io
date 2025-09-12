@@ -1,13 +1,12 @@
-// assets/js/custom.js
 (function () {
   function renumberPublications() {
     const container = document.querySelector('#container-publications');
     if (!container) return;
 
-    // 选出所有条目，并按屏幕上的 y 坐标从小到大排序（视觉从上到下）
     const items = Array.from(container.querySelectorAll('.isotope-item'));
     if (!items.length) return;
 
+    // 根据屏幕上的位置排序（y 坐标优先，其次 x 坐标）
     const ordered = items
       .map(el => {
         const rect = el.getBoundingClientRect();
@@ -21,10 +20,8 @@
       const cite = o.el.querySelector('.pub-list-item.view-citation');
       if (!cite) return;
 
-      // 倒序编号：第一条显示 [total]，最后一条显示 [1]
-      const num = total - i;
+      const num = total - i; // 倒序编号
 
-      // 复用/创建编号节点，避免重复插入
       let badge = cite.querySelector('.pub-index');
       if (!badge) {
         badge = document.createElement('span');
@@ -37,21 +34,27 @@
     });
   }
 
-  // 在页面完全加载后、以及 Isotope 布局完成后多次执行，确保命中
   function schedule() {
+    // 多次执行，保证 Isotope 初次加载完成
     renumberPublications();
-    setTimeout(renumberPublications, 100);
-    setTimeout(renumberPublications, 500);
-    setTimeout(renumberPublications, 1500);
+    setTimeout(renumberPublications, 200);
+    setTimeout(renumberPublications, 1000);
   }
 
   if (document.readyState === 'complete') schedule();
   else window.addEventListener('load', schedule);
 
-  // 监听 publications 容器的变动（Isotope 重新布局/筛选时再次编号）
+  // 🔑 核心：监听 Isotope 的布局完成事件
   const container = document.querySelector('#container-publications');
+  if (container) {
+    // Isotope 会在元素上触发自定义事件 'arrangeComplete'
+    container.addEventListener('arrangeComplete', renumberPublications);
+  }
+
+  // 兜底：MutationObserver，保证动态变化时也更新
   if (container && 'MutationObserver' in window) {
-    const mo = new MutationObserver(() => schedule());
-    mo.observe(container, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+    const mo = new MutationObserver(() => renumberPublications());
+    mo.observe(container, { childList: true, subtree: true, attributes: true });
   }
 })();
+
