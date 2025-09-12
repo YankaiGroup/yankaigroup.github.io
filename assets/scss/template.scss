@@ -112,15 +112,19 @@ hr.section-divider {
   padding-top: .6rem;
 }
 
-/* 2024 最后一条可见的后面显示 2024 */
+/* 2025：最后一个可见的 2025 */
+#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(~ .isotope-item.year-2025:not(.isotope-hidden)))::after {
+  content: "2025";
+}
+
+/* 2024：最后一个可见的 2024 */
 #container-publications .isotope-item.year-2024:not(.isotope-hidden):not(:has(~ .isotope-item.year-2024:not(.isotope-hidden)))::after {
   content: "2024";
 }
 
-/* 2023 最后一条可见的后面显示 2023 */
+/* 2023：最后一个可见的 2023 */
 #container-publications .isotope-item.year-2023:not(.isotope-hidden):not(:has(~ .isotope-item.year-2023:not(.isotope-hidden)))::after {
   content: "2023";
 }
-
 
 
