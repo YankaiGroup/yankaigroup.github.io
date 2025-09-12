@@ -23,7 +23,7 @@ all_day: false
 
  
 
-#authors: ['Yankai Cao']
+authors: [' ']
 tags: []
 
 # Is this a featured talk? (true/false)
