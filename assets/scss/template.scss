@@ -103,42 +103,26 @@ hr.section-divider {
 
  
 
-/* 公共外观（分隔条 + 年份文字） */
-#container-publications .isotope-item::after {
-  display: block;
-  border-top: 1px solid #e0e0e0;
-  margin: 1.5rem 0 .6rem;
-  padding-top: .6rem;
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: #333;
-}
+/* 2025 */
+#container-publications .isotope-item.year-2025
+:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+:not(:has(~ .isotope-item.year-2025
+           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+))::after { content: "2025"; }
 
-/* 便捷：把“可见”的定义写在 :is(...) 中，避免重复 */
-@supports(selector(:has(*))) {
-  /* 2025：最后一个【可见】的 2025 */
-  #container-publications .isotope-item.year-2025
-  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2025 :is(/* 可见条件 */)))::after { content: "2025"; }
+/* 2024 */
+#container-publications .isotope-item.year-2024
+:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+:not(:has(~ .isotope-item.year-2024
+           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+))::after { content: "2024"; }
 
-  /* 2024：最后一个【可见】的 2024 */
-  #container-publications .isotope-item.year-2024
-  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2024 :is(/* 可见条件 */)))::after { content: "2024"; }
-
-  /* 2023：最后一个【可见】的 2023 */
-  #container-publications .isotope-item.year-2023
-  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2023 :is(/* 可见条件 */)))::after { content: "2023"; }
-}
-
-/* 把上面占位的“可见条件”具体展开为：不带 .isotope-hidden 且 style 里不含 display:none */
-#container-publications .isotope-item.year-2025:is(
-  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-) {}
-#container-publications .isotope-item.year-2024:is(
-  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-) {}
-#container-publications .isotope-item.year-2023:is(
-  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
-) {}
+/* 2023 */
+#container-publications .isotope-item.year-2023
+:not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+:not(:has(~ .isotope-item.year-2023
+           :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+))::after { content: "2023"; }
 
 
 
