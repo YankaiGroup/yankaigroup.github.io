@@ -66,15 +66,17 @@ hr.section-divider {
 
 
  
-/* 给 publication 容器设置一个计数器 */
-.publication-list {
-  counter-reset: pub-counter;
+.isotope .isotope-item .section-subheading.article-title {
+  position: relative;
+  padding-left: 2rem;
 }
 
-/* 每个 publication item 自动编号 */
-.publication-list .isotope-item::before {
-  counter-increment: pub-counter;
-  content: "[" counter(pub-counter) "] ";
-  font-weight: bold;
-  margin-right: 6px;
+.isotope .isotope-item .section-subheading.article-title::before {
+  counter-increment: pub;
+  content: "[" counter(pub) "]";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: 600;
 }
+
