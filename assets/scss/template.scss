@@ -60,8 +60,8 @@ hr.section-divider {
   color: #1e40af; /* 蓝色，等价于 Tailwind 的 text-blue-800 */
 }
 
-.article-year {
-  margin-top: -10.2em;     /* 手动往下压 */
+#talk_list.row {
+  margin-bottom: 3em;   /* 每个年份分组底部多留空间 */
 }
 
 
