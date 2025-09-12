@@ -65,18 +65,21 @@ hr.section-divider {
 }
 
 
- 
-#container-publications .isotope-item .pub-list-item.view-citation {
-  position: relative;
-  padding-left: 2.5rem; /* 给编号留空间 */
+/* 只在最外层 reset 一次 */
+#container-publications {
+  counter-reset: pub;
 }
 
-#container-publications .isotope-item .pub-list-item.view-citation::before {
+/* 在每条 .isotope-item 上递增 */
+#container-publications .isotope-item {
   counter-increment: pub;
-  content: "[" counter(pub) "]";
-  position: absolute;
-  left: 0;
-  top: 0;
+}
+
+/* 在 citation 内容前插入编号 */
+#container-publications .isotope-item .pub-list-item.view-citation::before {
+  content: "[" counter(pub) "] ";
   font-weight: 600;
+  margin-right: .5rem;
+  display: inline-block;
 }
 
