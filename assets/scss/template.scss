@@ -101,22 +101,15 @@ hr.section-divider {
  
 
 
-/* 调小卡片 padding，让内容和底部分隔线靠近 */
+ /* 紧凑卡片样式：只显示顶部阴影线 */
 #container-publications .isotope-item {
-  padding: 0.4rem 0.6rem 0.3rem 0.6rem;  /* 上右下左，底部 padding 更小 */
-  margin: 0 0 0.5rem 0;                  /* 每条间距再缩小一点 */
+  background: #fff;
   border: none;
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
-}
-
-/* 调整按钮和上方文字的距离 */
-#container-publications .btn {
-  margin-top: 0.2rem;   /* 缩小按钮和正文的间距 */
-  margin-bottom: 0;     /* 去掉多余的底部空白 */
-  font-size: 0.7rem;
-  padding: .1rem .45rem;
-  border-radius: 3px;
+  border-radius: 0;                          /* 不需要圆角了，线条更干净 */
+  padding: 0.4rem 0.6rem;
+  margin: 0 0 0.6rem 0;
+  box-shadow: 0 -2px 3px -2px rgba(0,0,0,0.12); /* 只在顶部显示阴影线 */
+  transition: box-shadow 0.2s ease;
 }
 
 
