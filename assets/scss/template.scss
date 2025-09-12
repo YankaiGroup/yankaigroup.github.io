@@ -101,7 +101,22 @@ hr.section-divider {
  
 
 
- 
+ /* 每条 publication 包裹成卡片样式 */
+#container-publications .isotope-item {
+  background: #fff;                /* 背景色 */
+  border: 1px solid #e0e0e0;       /* 边框 */
+  border-radius: 8px;              /* 圆角 */
+  padding: 1rem 1.2rem;            /* 内边距 */
+  margin: 0 0 1rem 0;              /* 底部留空隙 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08); /* 阴影 */
+  transition: box-shadow 0.2s ease;
+}
+
+/* hover 时高亮 */
+#container-publications .isotope-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  border-color: #d0d0d0;
+}
 
 
 
