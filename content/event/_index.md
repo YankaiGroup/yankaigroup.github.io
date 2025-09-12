@@ -2,7 +2,7 @@
 title: News
 
 # Listing view
-view: compact
+view: list
 
 columns: '2'
 
