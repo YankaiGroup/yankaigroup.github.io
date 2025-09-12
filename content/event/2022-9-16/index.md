@@ -20,7 +20,7 @@ abstract:
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-09-16'
 
-#authors: [' ']
+authors: [' ']
 tags: []
 # Is this a featured talk? (true/false)
 featured: false
