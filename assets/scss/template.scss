@@ -106,8 +106,7 @@ hr.section-divider {
 
 
 
-
-/* 通用样式：年份标签外观 */
+/* 公共样式：年份标签外观 */
 #container-publications .isotope-item::before {
   display: block;
   margin: 1.2rem 0 .4rem;
@@ -116,19 +115,17 @@ hr.section-divider {
   color: #333;
 }
 
-/* 第一个可见的 2025 项目前插入“2025” */
-#container-publications .isotope-item.year-2025:not(.isotope-hidden):first-of-type::before {
-  content: "2025";
-}
-
-/* 第一个可见的 2024 项目前插入“2024” */
-#container-publications .isotope-item.year-2024:not(.isotope-hidden):first-of-type::before {
+/* 在第一个可见的 2024 条目前插入“2024” */
+#container-publications .isotope-item.year-2024:not(.isotope-hidden) 
+  + .isotope-item.year-2024:not(.isotope-hidden)::before {
   content: "2024";
 }
 
-/* 第一个可见的 2023 项目前插入“2023” */
-#container-publications .isotope-item.year-2023:not(.isotope-hidden):first-of-type::before {
+/* 在第一个可见的 2023 条目前插入“2023” */
+#container-publications .isotope-item.year-2023:not(.isotope-hidden) 
+  + .isotope-item.year-2023:not(.isotope-hidden)::before {
   content: "2023";
 }
+
 
 
