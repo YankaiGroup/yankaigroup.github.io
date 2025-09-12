@@ -101,21 +101,28 @@ hr.section-divider {
  
 
 
- /* 每条 publication 包裹成卡片样式 */
+/* 精简卡片样式 */
 #container-publications .isotope-item {
-  background: #fff;                /* 背景色 */
-  border: 1px solid #e0e0e0;       /* 边框 */
-  border-radius: 8px;              /* 圆角 */
-  padding: 1rem 1.2rem;            /* 内边距 */
-  margin: 0 0 1rem 0;              /* 底部留空隙 */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08); /* 阴影 */
+  background: #fff;
+  border-left: 3px solid #007bff;   /* 只保留左边的色条（可换颜色） */
+  border-radius: 4px;
+  padding: 0.6rem 0.8rem;          /* 缩小内边距 */
+  margin: 0 0 0.8rem 0;            /* 卡片间距小一点 */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* 轻微阴影 */
   transition: box-shadow 0.2s ease;
 }
 
-/* hover 时高亮 */
+/* hover 时稍微突出 */
 #container-publications .isotope-item:hover {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  border-color: #d0d0d0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+  border-left-color: #0056b3;
+}
+
+/* 编号靠左，和文本对齐 */
+#container-publications .pub-list-item.view-citation::before {
+  font-weight: 700;
+  margin-right: .4rem;
+  color: #333;
 }
 
 
