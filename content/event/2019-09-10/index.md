@@ -20,7 +20,7 @@ abstract:
 # Schedule page publish date (NOT talk date).
 publishDate: '2019-09-10'
 
-#authors: ['Yankai Cao']
+authors: [' ']
 tags: []
 # Is this a featured talk? (true/false)
 featured: false
