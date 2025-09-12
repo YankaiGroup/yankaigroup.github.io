@@ -54,4 +54,3 @@ slides:
 projects:
 ---
  
- 
