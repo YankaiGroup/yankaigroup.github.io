@@ -86,7 +86,7 @@ hr.section-divider {
 
 /* 顶部统计：用 ::after（在内容之后生成，能拿到最终计数），再绝对定位到容器顶部 */
 #container-publications::after {
-  content: "共找到 " counter(results) " 篇结果";
+  content: "Found " counter(results) " results";
   position: absolute;
   left: 0;
   top: 0;
