@@ -64,17 +64,13 @@ hr.section-divider {
   margin-bottom: 2.5em;   /* 每个年份分组底部多留空间 */
 }
 
-/* 从 var(--pub-start) 开始计数，每条 -1 */
-#container-publications { 
-  counter-reset: pub var(--pub-start, 0);
+.pub-list-item.view-citation {
+  position: relative;
+  padding-left: 2.4rem;
 }
-#container-publications .isotope-item {
-  counter-increment: pub -1; /* 倒序关键 */
-}
-#container-publications .isotope-item .pub-list-item.view-citation::before {
-  content: "[" counter(pub) "] ";
-  font-weight: 600;
-  margin-right: .5rem;
-  display: inline-block;
+.pub-list-item.view-citation .pub-index {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
