@@ -53,4 +53,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
- 
