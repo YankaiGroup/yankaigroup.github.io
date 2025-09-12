@@ -103,38 +103,42 @@ hr.section-divider {
 
  
 
-/* 2025 年：第一个可见的 2025 条目 */
-#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(~ .isotope-item.year-2025:not(.isotope-hidden))) {
-  /* 这句是之前最后一条用的，改成下面“第一个”的写法 */
-}
-
-/* ✅ 这是正确的写法：选第一个可见的 2025 项（即它前面没有别的 2025 可见项） */
-#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(+ .isotope-item.year-2025:not(.isotope-hidden)))::before {
-  content: "2025";
+/* 公共外观（分隔条 + 年份文字） */
+#container-publications .isotope-item::after {
   display: block;
-  border-bottom: 1px solid #e0e0e0;
-  margin: 1.5rem 0 .5rem;
-  padding-bottom: .6rem;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0 .6rem;
+  padding-top: .6rem;
   font-weight: 700;
   font-size: 1.05rem;
   color: #333;
 }
 
-/* 2024 */
-#container-publications .isotope-item.year-2024:not(.isotope-hidden):not(:has(+ .isotope-item.year-2024:not(.isotope-hidden)))::before {
-  content: "2024";
-  display:block; border-bottom:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-bottom:.6rem;
-  font-weight:700; font-size:1.05rem; color:#333;
+/* 便捷：把“可见”的定义写在 :is(...) 中，避免重复 */
+@supports(selector(:has(*))) {
+  /* 2025：最后一个【可见】的 2025 */
+  #container-publications .isotope-item.year-2025
+  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2025 :is(/* 可见条件 */)))::after { content: "2025"; }
+
+  /* 2024：最后一个【可见】的 2024 */
+  #container-publications .isotope-item.year-2024
+  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2024 :is(/* 可见条件 */)))::after { content: "2024"; }
+
+  /* 2023：最后一个【可见】的 2023 */
+  #container-publications .isotope-item.year-2023
+  :is(/* 可见条件 */):not(:has(~ .isotope-item.year-2023 :is(/* 可见条件 */)))::after { content: "2023"; }
 }
 
-/* 2023 */
-#container-publications .isotope-item.year-2023:not(.isotope-hidden):not(:has(+ .isotope-item.year-2023:not(.isotope-hidden)))::before {
-  content: "2023";
-  display:block; border-bottom:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-bottom:.6rem;
-  font-weight:700; font-size:1.05rem; color:#333;
-}
-
-/* ……按需继续加 */
+/* 把上面占位的“可见条件”具体展开为：不带 .isotope-hidden 且 style 里不含 display:none */
+#container-publications .isotope-item.year-2025:is(
+  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+) {}
+#container-publications .isotope-item.year-2024:is(
+  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+) {}
+#container-publications .isotope-item.year-2023:is(
+  :not(.isotope-hidden):not([style*="display:none"]):not([style*="display: none"])
+) {}
 
 
 
