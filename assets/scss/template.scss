@@ -101,27 +101,26 @@ hr.section-divider {
  
 
 
-
-
-/* 公共样式：年份标签外观 */
-#container-publications .isotope-item::before {
+/* 公共样式 */
+#container-publications .isotope-item::after {
   display: block;
   margin: 1.2rem 0 .4rem;
   font-weight: 700;
   font-size: 1.1rem;
   color: #333;
+  border-top: 1px solid #e0e0e0;
+  padding-top: .6rem;
 }
 
-/* 在第一个可见的 2024 条目前插入“2024” */
-#container-publications .isotope-item.year-2024:not(.isotope-hidden) 
-  + .isotope-item.year-2024:not(.isotope-hidden)::before {
+/* 2024 最后一条可见的后面显示 2024 */
+#container-publications .isotope-item.year-2024:not(.isotope-hidden):not(:has(~ .isotope-item.year-2024:not(.isotope-hidden)))::after {
   content: "2024";
 }
 
-/* 在第一个可见的 2023 条目前插入“2023” */
-#container-publications .isotope-item.year-2023:not(.isotope-hidden) 
-  + .isotope-item.year-2023:not(.isotope-hidden)::before {
+/* 2023 最后一条可见的后面显示 2023 */
+#container-publications .isotope-item.year-2023:not(.isotope-hidden):not(:has(~ .isotope-item.year-2023:not(.isotope-hidden)))::after {
   content: "2023";
 }
+
 
 
