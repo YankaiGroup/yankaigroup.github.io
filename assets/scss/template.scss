@@ -101,3 +101,54 @@ hr.section-divider {
  
 
 
+
+
+
+/* 通用外观（分隔条 + 年份标题） */
+#container-publications .year-sep::after {
+  content: attr(data-year);
+  display: block;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0 .5rem;
+  padding-top: .6rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+/* 2025：选出“最后一条可见的 2025 项”，给它打上 year-sep 样式并写入年份 */
+#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(~ .isotope-item.year-2025:not(.isotope-hidden))) {
+  /* 用 data-year 携带要显示的标题文本 */
+  --y:"2025";
+}
+#container-publications .isotope-item.year-2025:not(.isotope-hidden):not(:has(~ .isotope-item.year-2025:not(.isotope-hidden)))::after {
+  content: "2025";
+  display: block;
+  border-top: 1px solid #e0e0e0;
+  margin: 1.5rem 0 .5rem;
+  padding-top: .6rem;
+  font-weight:700; font-size:1.05rem; color:#333;
+}
+
+/* 2024 */
+#container-publications .isotope-item.year-2024:not(.isotope-hidden):not(:has(~ .isotope-item.year-2024:not(.isotope-hidden)))::after {
+  content: "2024";
+  display:block; border-top:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-top:.6rem;
+  font-weight:700; font-size:1.05rem; color:#333;
+}
+
+/* 2023 */
+#container-publications .isotope-item.year-2023:not(.isotope-hidden):not(:has(~ .isotope-item.year-2023:not(.isotope-hidden)))::after {
+  content: "2023";
+  display:block; border-top:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-top:.6rem;
+  font-weight:700; font-size:1.05rem; color:#333;
+}
+
+/* 2022（按需继续加更多年份……） */
+#container-publications .isotope-item.year-2022:not(.isotope-hidden):not(:has(~ .isotope-item.year-2022:not(.isotope-hidden)))::after {
+  content: "2022";
+  display:block; border-top:1px solid #e0e0e0; margin:1.5rem 0 .5rem; padding-top:.6rem;
+  font-weight:700; font-size:1.05rem; color:#333;
+}
+
+
