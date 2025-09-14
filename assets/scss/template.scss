@@ -133,8 +133,3 @@ hr.section-divider {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const option = document.querySelector('.pubtype-select option[value="*"]');
-  if (option) option.textContent = "All Type";
-});
-
