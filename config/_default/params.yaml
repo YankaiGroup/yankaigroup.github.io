@@ -7,7 +7,7 @@
 appearance:
   theme_day: minimal
   theme_night: 
-  font: native
+  font: Times New Roman
   font_size: L
 
 # SEO
