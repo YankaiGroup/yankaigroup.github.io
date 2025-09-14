@@ -14,30 +14,38 @@ banner:
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  function patch(label, newText) {
-    const sel = document.querySelector(label);
-    if (!sel) return false;
-    const opt = sel.querySelector('option[value="*"]');
-    if (opt && opt.textContent.trim().length > 0) {
-      opt.textContent = newText;
-      return true;
+  function patchFilters() {
+    let changed = false;
+
+    // 修改 Type 下拉框
+    const typeSelect = document.querySelector('select[data-filter-group="pubtype"]');
+    if (typeSelect) {
+      const typeOpt = typeSelect.querySelector('option[value="*"]');
+      if (typeOpt && typeOpt.textContent.trim() === "Type") {
+        typeOpt.textContent = "All Type";
+        changed = true;
+      }
     }
-    return false;
+
+    // 修改 Date 下拉框
+    const yearSelect = document.querySelector('select[data-filter-group="year"]');
+    if (yearSelect) {
+      const yearOpt = yearSelect.querySelector('option[value="*"]');
+      if (yearOpt && yearOpt.textContent.trim() === "Date") {
+        yearOpt.textContent = "All Years";
+        changed = true;
+      }
+    }
+
+    return changed;
   }
 
-  function tryPatch() {
-    const ok1 = patch('.pubtype-select', 'All Type');
-    const ok2 = patch('.pubyear-select', 'All Years');
-    return ok1 && ok2;
-  }
-
-  // 立即试一次
-  if (!tryPatch()) {
-    // 如果 DOM 还没准备好，间隔检查几次
+  // 立即尝试
+  if (!patchFilters()) {
     let tries = 0;
     const timer = setInterval(function () {
       tries++;
-      if (tryPatch() || tries > 20) {
+      if (patchFilters() || tries > 20) {
         clearInterval(timer);
       }
     }, 200);
