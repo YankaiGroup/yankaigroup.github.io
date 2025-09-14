@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // 定义新顺序
     const desiredOrder = [
       "All Type",
+      "Book chapters",
       "Journal paper",
       "Computer science conference paper",
       "Engineering conference paper",
