@@ -3,7 +3,7 @@ title: "Interpretable Data-Driven Capacity Estimation of Lithium-ion Batteries"
 tags: ['Interpretable', 'Data-driven']
 authors: ['Yixiu Wang', 'Anurakt Kumar', 'Jiayang Ren', 'Pufan You', 'Arpan Seth', 'R Bhushan Gopaluni', 'Yankai Cao']
 publication_types: ['paper-conference']
-publication: "*Proceedings of the 12th IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM)*"
+publication: "*IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM)*"
 abstract: "Battery degradation poses a significant challenge for the usage of Lithium-ion
  batteries, making accurate capacity estimation crucial for efficient operation. Data-driven
  approaches hold promise for addressing this task, yet their complex structures often lead to
