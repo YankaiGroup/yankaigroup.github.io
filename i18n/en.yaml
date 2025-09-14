@@ -1,12 +1,18 @@
 # i18n/en.yaml
 - id:  pub_paper_conference
-  translation: "Engineering conference paper"
+  translation: "Engineering conference papers"
  
+- id:  pub_patent
+  translation: "Patents"
 
+  - id:  pub_preprint
+  translation: "Preprints"
+
+  
 - id: pub_article_journal
-  translation: "Journal paper"
+  translation: "Journal papers"
 - id: pub_report
-  translation: "Computer science conference paper"
+  translation: "Computer science conference papers"
   
 - id: pub_thesis
   translation: "Thesis"
