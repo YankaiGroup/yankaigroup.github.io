@@ -14,28 +14,37 @@ banner:
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  function patch() {
-    const option = document.querySelector('.pubtype-select option[value="*"]');
-    if (option && option.textContent.trim() === "Type") {
-      option.textContent = "All Type";
+  function patch(label, newText) {
+    const sel = document.querySelector(label);
+    if (!sel) return false;
+    const opt = sel.querySelector('option[value="*"]');
+    if (opt && opt.textContent.trim().length > 0) {
+      opt.textContent = newText;
       return true;
     }
     return false;
   }
 
-  // 立即尝试一次
-  if (!patch()) {
-    // 如果还没渲染出来，轮询几次
+  function tryPatch() {
+    const ok1 = patch('.pubtype-select', 'All Type');
+    const ok2 = patch('.pubyear-select', 'All Years');
+    return ok1 && ok2;
+  }
+
+  // 立即试一次
+  if (!tryPatch()) {
+    // 如果 DOM 还没准备好，间隔检查几次
     let tries = 0;
-    const timer = setInterval(function() {
+    const timer = setInterval(function () {
       tries++;
-      if (patch() || tries > 20) {
+      if (tryPatch() || tries > 20) {
         clearInterval(timer);
       }
     }, 200);
   }
 });
 </script>
+
 
 
 
