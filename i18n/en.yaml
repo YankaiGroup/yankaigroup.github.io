@@ -12,4 +12,8 @@
 - id: pub_thesis
   translation: "Thesis"
 
+- id: pub_type
+  translation: "All Type"
+
+
 
