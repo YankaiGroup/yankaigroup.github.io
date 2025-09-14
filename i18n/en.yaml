@@ -5,7 +5,7 @@
 - id:  pub_patent
   translation: "Patents"
 
-  - id:  pub_preprint
+- id:  pub_preprint
   translation: "Preprints"
 
   
