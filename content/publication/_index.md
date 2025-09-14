@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (typeSelect) {
       const typeOpt = typeSelect.querySelector('option[value="*"]');
       if (typeOpt && typeOpt.textContent.trim() === "Type") {
-        typeOpt.textContent = "All Type";
+        typeOpt.textContent = "All Types";
         changed = true;
       }
     }
@@ -62,13 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 定义新顺序
     const desiredOrder = [
-      "All Type",
+      "All Types",
+      "Journal papers",
+      "Computer science conference papers",
+      "Engineering conference papers",
+      "Patents",
       "Book chapters",
-      "Journal paper",
-      "Computer science conference paper",
-      "Engineering conference paper",
-      "Preprint",
-      "Patent"
+      "Preprints"
     ];
 
     // 把所有 option 收集到 map
