@@ -8,7 +8,7 @@ abstract: "Accurate capacity estimation is crucial for the reliable and safe ope
 date: "2022-04-27"
 publishDate: "2022-04-27"
 url_pdf: "https://www.nature.com/articles/s41467-022-29837-w.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
