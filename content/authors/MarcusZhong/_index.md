@@ -2,6 +2,9 @@
 # Display name
 title: Marcus Zhong
 
+
+weight: 2025
+
 # Full name (for SEO)
 first_name: Marcus
 last_name: Zhong
