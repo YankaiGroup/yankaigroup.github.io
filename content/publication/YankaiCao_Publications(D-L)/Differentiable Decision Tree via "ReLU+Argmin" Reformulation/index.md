@@ -1,5 +1,5 @@
 ---
-title: "Differentiable Decision Tree via ReLU+Argmin Reformulation"
+title: "Differentiable Decision Tree via ``ReLU+Argmin'' Reformulation"
 tags: ['Decision tree','Differentiable decision tree']
 authors: ['Qiangqiang Mao', 'Jiayang Ren', 'Yixiu Wang', 'Chenxuanyin Zou', 'Jingjing Zheng', 'Yankai Cao']
 publication_types: ['report']
