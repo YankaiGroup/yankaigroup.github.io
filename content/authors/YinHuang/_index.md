@@ -2,6 +2,9 @@
 # Display name
 title: Yin Huang
 
+weight: 2024
+
+
 # Full name (for SEO)
 first_name: Yin
 last_name: Huang
