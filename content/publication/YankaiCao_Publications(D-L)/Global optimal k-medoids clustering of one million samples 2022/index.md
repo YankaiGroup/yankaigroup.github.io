@@ -8,7 +8,7 @@ abstract: "We study the deterministic global optimization of the K-Medoids clust
 date: "2022-12-06"
 publishDate: "2022-12-06"
 url_pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/06abed94583030dd50abe6767bd643b1-Paper-Conference.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
