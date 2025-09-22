@@ -1,4 +1,3 @@
-
 ---
 # Display name
 title: Marcus Zhong
