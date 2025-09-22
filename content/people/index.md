@@ -83,7 +83,7 @@ sections:
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Pengcheng Guo</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Visiting Ph.D. (2023–2024)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">In progress at the Xi’an Jiaotong University</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Assistant Professor at Northwest A&F University</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Semi-supervised Learning</td>
             </tr>
             <tr style="background-color: #e5e5e5;">
