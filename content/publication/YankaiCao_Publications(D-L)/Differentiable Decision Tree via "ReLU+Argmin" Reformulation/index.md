@@ -9,7 +9,7 @@ summary:
 date: "2025-09-18"
 publishDate: "2025-09-18"
 url_pdf: "https://openreview.net/pdf?id=F11iEhKoYp"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
