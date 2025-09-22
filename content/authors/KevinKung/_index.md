@@ -2,6 +2,8 @@
 # Display name
 title: Kevin Kung
 
+weight: 2021
+
 # Full name (for SEO)
 first_name: Kevin
 last_name: Kung
