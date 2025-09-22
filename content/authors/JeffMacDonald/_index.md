@@ -2,6 +2,8 @@
 # Display name
 title: Jeff MacDonald
 
+weight: 2023
+
 # Full name (for SEO)
 first_name: Jeff
 last_name: MacDonald
