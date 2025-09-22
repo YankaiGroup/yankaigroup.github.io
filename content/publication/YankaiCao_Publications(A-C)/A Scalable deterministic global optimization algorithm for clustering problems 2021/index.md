@@ -8,7 +8,7 @@ abstract: "The minimum sum-of-squares clustering (MSSC) task, which can be treat
 date: "2021-07-01"
 publishDate: "2021-07-01"
 url_pdf: "https://proceedings.mlr.press/v139/hua21a/hua21a.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
