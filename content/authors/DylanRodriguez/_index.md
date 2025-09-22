@@ -2,6 +2,8 @@
 # Display name
 title: Dylan Rodriguez
 
+weight: 20
+
 # Full name (for SEO)
 first_name: Dylan
 last_name: Rodriguez
