@@ -6,6 +6,8 @@ title: Chenxuanyin Zou
 first_name: Chenxuanyin
 last_name: Zou
 
+weight: 2024
+
 # Username (this should match the folder name)
 authors:
   - ChenxuanyinZou
