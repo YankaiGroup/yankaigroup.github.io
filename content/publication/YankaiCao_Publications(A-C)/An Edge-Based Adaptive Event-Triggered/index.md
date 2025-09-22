@@ -1,15 +1,15 @@
 ---
-title: "A Global Optimization Algorithm for K-Center Clustering of One Billion Samples"
-tags: ['Global Optimization','K-Center Clustering']
-authors: ['Jiayang Ren', 'Ningning You', 'Kaixun Hua', 'Chaojie Ji', 'Yankai Cao']
+title: "An Edge-Based Adaptive Event-Triggered Network Transmission Scheme for Fully Distributed Power and Frequency Control of Islanded AC Microgrids"
+tags: []
+authors: ['Sheng Han', 'Hong Zhu', 'Qishui Zhong', 'Kaibo Shi', 'Yankai Cao', 'Jianfeng Liu']
 publication_types: ['article-journal']
-publication: "*Management Science*"
-abstract: "This paper presents a practical global optimization algorithm for the K-center clustering problem, which aims to select K samples as the cluster centers to minimize the maximum within-cluster distance. This algorithm is based on a reduced-space branch and bound scheme and guarantees convergence to the global optimum in a finite number of steps by only branching on the regions of centers. To improve efficiency, we have designed a two-stage decomposable lower bound, the solution of which can be derived in a closed form. In addition, we also propose several acceleration techniques to narrow down the region of centers, including bounds tightening, sample reduction, and parallelization. Extensive studies on synthetic and real-world datasets have demonstrated that our algorithm can solve the K-center problems to global optimal within 4 hours for ten million samples in the serial mode and one billion samples in the parallel mode. Moreover, compared with the state-of-the-art heuristic methods, the global optimum obtained by our algorithm can averagely reduce the objective function by 25.8% on all the synthetic and real-world datasets."
+publication: "*IEEE Transactions on Network and Service Management*"
+abstract: "In islanded AC microgrids, achieving optimal power distribution across distributed generators (DGs) and restoring frequency post-primary control under limited communication resources is paramount for ensuring stability and flexibility. In this paper, we develop a distributed adaptive secondary control strategy tailored for islanded AC microgrids. This strategy facilitates effective active power sharing and frequency regulation using solely local network information. A unique adaptive edge-based event-triggered transmission mechanism is also proposed, obviating Zeno behavior, to reduce communication overhead. It requires only the degree information of a single node in the DG network topology. Contrasting most existing research that necessitates global network topology details, like the Laplacian matrix, this work establishes a fully distributed control performance criterion that operates devoid of global data. The effectiveness of the proposed control approach is validated using a modified IEEE 34-bus test system."
 summary:
-date: "2025-09-01"
-publishDate: "2025-09-01"
-url_pdf: "https://arxiv.org/pdf/2301.00061"
-featured: true
+date: "2025-08-11"
+publishDate: "2025-08-11"
+url_pdf: "https://ieeexplore.ieee.org/document/11122430"
+featured: false
 projects: []
 slides: ""
 ---
