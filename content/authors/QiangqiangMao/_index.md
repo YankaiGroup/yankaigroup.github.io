@@ -22,10 +22,10 @@ organizations:
     url: 'https://www.chbe.ubc.ca/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Biomass-Based Carbon Removal Processes Through Machine Learning.
+bio: My research interests include Differentiable Decision Tree Optimization.
 
 interests:
-  - Biomass-Based Carbon Removal Processes Through Machine Learning
+  - Differentiable Decision Tree Optimization
  
  
 
