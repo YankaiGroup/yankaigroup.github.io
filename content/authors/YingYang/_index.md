@@ -2,6 +2,8 @@
 # Display name
 title: Ying Yang
 
+weight: 2023
+
 # Full name (for SEO)
 first_name: Ying
 last_name: Yang
