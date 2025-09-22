@@ -2,6 +2,8 @@
 # Display name
 title: Yu Wang
 
+weight: 2024
+
 # Full name (for SEO)
 first_name: Yu
 last_name: Wang
