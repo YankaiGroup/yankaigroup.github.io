@@ -9,7 +9,7 @@ mate asthey canonlyprovide one-to-one mappings. Therefore, we propose mixture ne
 date: "2024-04-15"
 publishDate: "2024-04-15"
 url_pdf: "file:///D:/Downloads/ubc_2023_may_okamoto_morimasa.pdf.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
