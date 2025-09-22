@@ -2,6 +2,8 @@
 # Display name
 title: Colson Kroeker
 
+weight: 20
+
 # Full name (for SEO)
 first_name: Colson
 last_name: Kroeker
