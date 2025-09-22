@@ -2,6 +2,8 @@
 # Display name
 title: Jason Zhao
 
+weight: 2025
+
 # Full name (for SEO)
 first_name: Jason
 last_name: Zhao
