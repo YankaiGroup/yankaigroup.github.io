@@ -20,7 +20,7 @@ sections:
           - Undergraduate Students
           - Visitors
           - Alumni0
-      sort_by: Params.last_name
+      sort_by: weight
       sort_ascending: true
     design:
       show_interests: true
