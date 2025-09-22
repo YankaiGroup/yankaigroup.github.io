@@ -8,7 +8,7 @@ abstract: "Paddy drying is an energy-intensive process that involves complex int
 date: "2025-04-15"
 publishDate: "2025-04-15"
 url_pdf: "https://scholar.google.ca/citations?view_op=view_citation&hl=zh-CN&user=M-s3mjAAAAAJ&cstart=80&citation_for_view=M-s3mjAAAAAJ:uWQEDVKXjbEC"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
