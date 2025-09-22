@@ -2,6 +2,8 @@
 # Display name
 title: Chaojie Ji
 
+weight: 2022
+
 # Full name (for SEO)
 first_name: Chaojie
 last_name: Ji
