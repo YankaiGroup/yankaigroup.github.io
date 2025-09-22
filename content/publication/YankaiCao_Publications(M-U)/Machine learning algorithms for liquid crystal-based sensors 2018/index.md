@@ -8,7 +8,7 @@ abstract: "We present a machine learning (ML) framework to optimize the specific
 date: "2018-10-05"
 publishDate: "2018-10-05"
 url_pdf: "https://drive.google.com/file/d/1dv5Vo20KXU8syS6xC2x5Q20tNgE4rfDO/view?pli=1"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
