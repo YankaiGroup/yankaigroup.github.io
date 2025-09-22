@@ -2,11 +2,14 @@
 # Display name
 title: Chenxuanyin Zou
 
+weight: 2024
+
+
 # Full name (for SEO)
 first_name: Chenxuanyin
 last_name: Zou
 
-weight: 2024
+
 
 # Username (this should match the folder name)
 authors:
