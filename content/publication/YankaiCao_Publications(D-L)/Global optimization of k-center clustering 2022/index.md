@@ -8,7 +8,7 @@ abstract: " k-center problem is a well-known clustering method and can be formul
 date: "2022-06-28"
 publishDate: "2022-06-28"
 url_pdf: "https://proceedings.mlr.press/v162/shi22b/shi22b.pdf"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
