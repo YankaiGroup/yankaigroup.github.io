@@ -2,6 +2,8 @@
 # Display name
 title: Jiayang Ren
 
+weight: 2021
+
 # Full name (for SEO)
 first_name: Jiayang
 last_name: Ren
