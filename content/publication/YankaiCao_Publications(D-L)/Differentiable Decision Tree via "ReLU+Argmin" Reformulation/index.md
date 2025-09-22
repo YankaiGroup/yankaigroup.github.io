@@ -1,4 +1,3 @@
-
 ---
 title: "Differentiable Decision Tree via ``ReLU+Argmin'' Reformulation"
 tags: ['Decision tree','Differentiable decision tree']
