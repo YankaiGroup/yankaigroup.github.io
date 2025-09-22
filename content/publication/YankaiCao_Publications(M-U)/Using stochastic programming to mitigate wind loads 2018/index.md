@@ -8,7 +8,7 @@ abstract: "We propose stochastic programming formulations to enforce mechanical 
 date: "2018-11-15"
 publishDate: "2018-11-15"
 url_pdf: "https://scholar.google.ca/citations?view_op=view_citation&hl=zh-CN&user=M-s3mjAAAAAJ&pagesize=80&citation_for_view=M-s3mjAAAAAJ:WF5omc3nYNoC"
-featured: false
+featured: true
 projects: []
 slides: ""
 ---
