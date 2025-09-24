@@ -287,7 +287,7 @@ sections:
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Kenneth Febian</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Undergraduate (2019)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">Senior student at the University of British Columbia</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Process Engineer at Wood</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Deep Learning-Based Optimization of Battery Systems</td>
             </tr> 
             </tbody>
