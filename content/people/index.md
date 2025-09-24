@@ -166,7 +166,7 @@ sections:
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Sandy Luo</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Undergraduate (2021–2022)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">Senior student at the University of British Columbia</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Master Student at Brown University</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Transfer Learning for Battery Life Prediction</td>
             </tr>
             <tr>
@@ -180,21 +180,21 @@ sections:
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Shraman Pal</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Undergraduate (2022)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">Senior student at Indian Institute of Technology Kharagpur</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Ph.D. Student at Purdue University</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Brain & Behavior Prediction using GAN and Transformer</td>
             </tr>
             <tr>
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Abhishek Ramesh Gopalan</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Undergraduate (2022)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">Senior student at Indian Institute of Technology Madras</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Business Analyst at Cavin Kares</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Deep-learning-based Control of Industrial-scale Grain Drying Process</td>
             </tr>
             <tr>
               <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
               <td style="border: 1px solid #ccc; padding: 6px;">Manika Jain</td>
               <td style="border: 1px solid #ccc; padding: 6px;"><em>Undergraduate (2022)</em></td>
-              <td style="border: 1px solid #ccc; padding: 6px;">Senior student at Delhi Technological University</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Software Engineer at JPMorgan Chase</td>
               <td style="border: 1px solid #ccc; padding: 6px;">Deep Learning-based Scheduling</td>
             </tr>
             <tr style="background-color: #e5e5e5;">
