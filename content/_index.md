@@ -148,6 +148,20 @@ sections:
       title: Gallery
       slides:
       - title:  
+        content: 📚💡 2025 Group Meeting
+        align: left
+        background:
+          image:
+            filename: 5901759354989_.pic_hd.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#666'
+          background-size: contain
+        link: 
+          text: See Full Gallery
+          url: ../gallery/
+      - title:  
         content: 🎉🎓 Celebrate Jingyi’s Graduation (2025)
         align: left
         background:
