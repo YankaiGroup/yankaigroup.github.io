@@ -6,7 +6,26 @@ type: landing
 
 sections: 
  
- 
+  - block: markdown
+    content:
+      title:  
+      subtitle: ''
+      text: |
+         <h3 style="color: #374151; font-weight: bold;"> 2025 Group Meeting </h3> 
+    design:
+      columns: '2'
+      background:
+        image: 
+          filename: WechatIMG208-scaled.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: "50% center"
+          size: contain
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 
   - block: markdown
     content:
