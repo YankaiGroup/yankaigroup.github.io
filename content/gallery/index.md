@@ -16,7 +16,7 @@ sections:
       columns: '2'
       background:
         image: 
-          filename: WechatIMG208-scaled.jpg
+          filename: 5901759354989_.pic_hd.jpg
           filters:
             brightness: 1
           parallax: false
