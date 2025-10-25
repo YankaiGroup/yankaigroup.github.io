@@ -49,6 +49,16 @@ sections:
             </thead>
             <tbody>
             <tr style="background-color: #e5e5e5;">
+              <td colspan="5" style="border: 1px solid #ccc; padding: 6px;"><strong>2025</strong></td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #ccc; padding: 6px;"><img src="/uploads/Alumni_img/avatar.png" width="36" style="border-radius: 50%;"></td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Jingyi Wang</td>
+              <td style="border: 1px solid #ccc; padding: 6px;"><em>Ph.D. (2020–2025)</em></td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Control Engineering at AIMS</td>
+              <td style="border: 1px solid #ccc; padding: 6px;">Automatic Digital Twin Development: Sparse Nonlinear Identification Approaches</td>
+            </tr>
+            <tr style="background-color: #e5e5e5;">
               <td colspan="5" style="border: 1px solid #ccc; padding: 6px;"><strong>2024</strong></td>
             </tr>
             <tr>
