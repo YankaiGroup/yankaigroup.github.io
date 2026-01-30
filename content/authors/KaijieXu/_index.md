@@ -11,7 +11,7 @@ last_name: Xu
 
 # Username (this should match the folder name)
 authors:
-  - KevinKung
+  - KaijieXu
 
 # Is this the primary user of the site?
 superuser: false
