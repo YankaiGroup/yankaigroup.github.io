@@ -3,7 +3,7 @@
 # Display name
 title: Kaijie Xu
 
-weight: 2021
+weight: 2025
 
 # Full name (for SEO)
 first_name: Kaijie
