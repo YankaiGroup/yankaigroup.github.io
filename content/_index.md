@@ -47,6 +47,18 @@ sections:
         <h4 style="color: #374151; font-weight: bold;"> Latest Highlight </h4>
          <!-- News Card 1 --> 
           <div class="events-card">
+            <p class="text-xs" style="font-size: 17px;"> A paper was published in Management Science. 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2025 </span> 
+            </p>
+          </div>
+         <!-- News Card 1 --> 
+          <div class="events-card">
+            <p class="text-xs" style="font-size: 17px;"> Two papers were accepted to NeurIPS. 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2025 </span> 
+            </p>
+          </div>
+         <!-- News Card 1 --> 
+          <div class="events-card">
             <p class="text-xs" style="font-size: 17px;"> Jiayang received the Wall Research Award. 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| June 2025 </span> 
             </p>
