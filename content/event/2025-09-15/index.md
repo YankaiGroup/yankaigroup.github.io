@@ -11,8 +11,9 @@ address:
   postcode:  
   country:  
 
-summary: Jiayang Ren’s work [“A Global Optimization Algorithm for K-Center
-Clustering of One Billion Samples”](https://arxiv.org/pdf/2301.00061) is accepted by Management Science.
+summary: |
+   Jiayang Ren’s work [“A Global Optimization Algorithm for K-Center
+   Clustering of One Billion Samples”](https://arxiv.org/pdf/2301.00061) is accepted by Management Science.
 abstract:  
 
 
