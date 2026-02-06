@@ -1,4 +1,3 @@
-
 ---
 title: Two Papers Accepted by NeurIPS 2025
 event: 
