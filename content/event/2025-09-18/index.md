@@ -1,7 +1,7 @@
 ---
 title: Two Papers Accepted by NeurIPS 2025
 event: 
-event_url: https://openreview.net/pdf?id=F11iEhKoYp; https://openreview.net/pdf?id=8ZdWmpYxT0
+event_url:  https://openreview.net/pdf?id=F11iEhKoYp; https://openreview.net/pdf?id=8ZdWmpYxT0
 
 location:  
 address:
