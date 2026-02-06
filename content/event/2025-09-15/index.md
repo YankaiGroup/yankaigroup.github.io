@@ -1,5 +1,5 @@
 ---
-title: Two Papers Accepted by NeurIPS
+title: A paper was published in Management Science
 event: 
 event_url:  https://arxiv.org/pdf/2301.00061;
 
@@ -13,7 +13,7 @@ address:
 
 summary: |
    Jiayang Ren’s work [“A Global Optimization Algorithm for K-Center
-   Clustering of One Billion Samples”](https://arxiv.org/pdf/2301.00061) is accepted by Management Science.
+   Clustering of One Billion Samples”](https://arxiv.org/pdf/2301.00061) was published in Management Science.
 abstract:  
 
 
