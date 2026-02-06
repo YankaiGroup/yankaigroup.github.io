@@ -1,7 +1,7 @@
 ---
 title: Two Papers Accepted by NeurIPS 2025
 event: 
-event_url: https://openreview.net/pdf?id=F11iEhKoYp;https://openreview.net/pdf?id=8ZdWmpYxT0
+event_url: https://openreview.net/pdf?id=F11iEhKoYp; https://openreview.net/pdf?id=8ZdWmpYxT0
 
 location:  
 address:
@@ -20,7 +20,7 @@ abstract:
 # Schedule page publish date (NOT talk date).
 publishDate: '2025-09-18'
 
-authors: [' ']
+authors: ['']
 tags: []
 # Is this a featured talk? (true/false)
 featured: false
