@@ -1,4 +1,3 @@
-
 ---
 # Display name
 title: Kaijie Xu
@@ -17,7 +16,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Associate Professor, School of Electronic Engineering, Xidian University, started 2025
+role: Ph.D., Xidian University, started 2025
 
 # Organizations/Affiliations
 organizations:
@@ -28,7 +27,7 @@ organizations:
 bio:  
 
 interests:
-  - Radar Signal Processing, Granular Computing, Mathematics and Fuzzy Modeling, Information and signal processing
+  - Signal Processing
  
  
 
