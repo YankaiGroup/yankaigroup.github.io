@@ -12,7 +12,7 @@ address:
   country:  
 
 summary: |
-  Qiangqiang Mao’s work [“Differentiable Decision Tree via `ReLU+Argmin' Reformulation”](https://openreview.net/pdf?id=F11iEhKoYp) and Jingjing Zheng’s work      [“AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning”](https://openreview.net/pdf?id=8ZdWmpYxT0) were accepted by Conference on        Neural Information Processing Systems (NeurIPS).
+  Qiangqiang Mao’s work [“Differentiable Decision Tree via "ReLU+Argmin" Reformulation”](https://openreview.net/pdf?id=F11iEhKoYp) and Jingjing Zheng’s work      [“AdaMSS: Adaptive Multi-Subspace Approach for Parameter-Efficient Fine-Tuning”](https://openreview.net/pdf?id=8ZdWmpYxT0) were accepted by Conference on        Neural Information Processing Systems (NeurIPS).
 abstract:  
 
 
