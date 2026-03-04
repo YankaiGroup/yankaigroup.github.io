@@ -27,7 +27,7 @@ organizations:
 bio: My research interests include Deep Learning-based Model Predictive Control.
 
 interests:
-  - Deep Learning-based Model Predictive Control
+  - Advanced mathematical optimization algorithms for statistical models
  
  
 
