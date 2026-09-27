@@ -47,6 +47,24 @@ sections:
         <h4 style="color: #374151; font-weight: bold;"> Latest Highlight </h4>
          <!-- News Card 1 --> 
           <div class="events-card">
+            <p class="text-xs" style="font-size: 17px;"> Chaojie's paper “IDEA: Unwrapping Visual Black-box Models by Interaction Decomposition,” has been accepted as an Oral Presentation at NeurIPS 2026! This year, NeurIPS received 30,709 valid Main Track submissions, with only 112 papers (0.36%) selected for oral presentation. 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
+            </p>
+          </div>
+         <!-- News Card 1 --> 
+          <div class="events-card">
+            <p class="text-xs" style="font-size: 17px;"> Chaojie and Qiangqiang received the Wall Research Awards for Graduate Student. 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
+            </p>
+          </div>
+         <!-- News Card 1 --> 
+          <div class="events-card">
+            <p class="text-xs" style="font-size: 17px;"> Prof. Yankai Cao received the Peter Wall Legacy Award. 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
+            </p>
+          </div>
+         <!-- News Card 1 --> 
+          <div class="events-card">
             <p class="text-xs" style="font-size: 17px;"> A paper was published in Management Science. 
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2025 </span> 
             </p>
