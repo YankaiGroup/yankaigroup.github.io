@@ -57,17 +57,11 @@ sections:
                 <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
             </p>
           </div>
-         <!-- News Card 1 --> 
-          <div class="events-card">
-            <p class="text-xs" style="font-size: 17px;"> Prof. Yankai Cao received the Peter Wall Legacy Award. 
-                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
-            </p>
-          </div>
          <!-- News Card 3 -->
           <a https://walllegacyawards.ubc.ca/awardees-2026/" target="_blank" style="text-decoration: none; color: inherit;">
           <div class="events-card" style="font-size: 17px;">
             <p class="text-xs"> Prof. Yankai Cao received the Peter Wall Legacy Award.
-                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| April 2022 </span> 
+                <span style="color: #6B7280; font-weight: normal; font-style: normal; font-family: 'Segoe UI', sans-serif;" class="bg-green-500"> &nbsp;| September 2026 </span> 
             </p>
           </div>
           </a>
